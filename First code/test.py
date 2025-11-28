@@ -19,3 +19,15 @@ i = 1
 while i<4:
     print(i)
     i += 1
+
+# List
+numbers = [1, 2, 3, 4]
+for n in numbers:
+    print(n)
+
+
+# function
+def add(a, b):
+    return a + b
+
+print(add(3, 5))
